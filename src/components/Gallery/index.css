@@ -1,0 +1,20 @@
+.Gallery {
+  margin: 0 80px;
+  display: flex;
+  gap: 8px;
+}
+
+.galleryTitle {
+  display: flex;
+  align-items: center;
+}
+
+.Gallery img {
+  border-radius: 8px;
+}
+
+.Gallery img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.4s;
+}
